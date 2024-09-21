@@ -1,0 +1,115 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #141414;
+    background-image: url(wp10523122-games-collage-wallpapers.jpg);
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #76b900;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #5a9300;
+}
+
+/* Game Collage Styles */
+.games-collage {
+    padding: 40px 20px;
+    background-color: #333;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.game-item {
+    text-align: center;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.game-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.game-title {
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
